@@ -2,6 +2,8 @@ body {
     background-color: rgb(143, 151, 121);
 }
 
+
+
 #title {
     text-align: center;
     border-style: outset;
@@ -12,27 +14,76 @@ body {
     font-size: 44px;
 }
 .gen {
-    text-align: center;
-    font-size: 20px;
+
     color: rgb(255, 215, 0);
     font-family:  fantasy;
     background-color: rgb(76, 76, 76);
-    border: ridge;
+    border: 2px solid;
     border-color: rgb(255, 215, 0);
+    text-align: center;
+    
+    font-size: 20px;
+    padding: 10px;
+    margin: 60px;
+    box-sizing: border-box;
+    
    
 }
+
 .imogen {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 50%;
     border: ridge;
     border-color: rgb(255, 215, 0);
+    height: 300px;
+    width: auto;
+}
+ul {
+    max-width: max-content;
+    margin: 20px auto;
+    
 }
 
-p {
+
+ul, 
+li {
+    display: flex;
+    padding: 5px;
     font-family: Baskerville, fantasy;
-    font-size: 14px;
+    ;
     text-align: center;
-    color: rgb(143, 151, 121);
+    
+    
+}
+
+li {
+    color:rgb(255, 215, 0);
+    text-align: center;
+    border: solid;
+    border-color: rgb(255, 215, 0);
+    background-color:  rgb(76, 76, 76);
+}
+.one {
+    border-color: rgb(255, 215, 0);
+    background-color: rebeccapurple;
+}
+.two {
+    border-color: rgb(255, 215, 0);
+    background-color: rgb(76, 76, 76);
+}
+.three {
+    border-color: rgb(255, 215, 0);
+    background-color: rebeccapurple;
+    
+}
+.all {
+    
+    border: solid;
+    border-color: rgb(255, 215, 0);
+    padding: 5px;
+}
+div {
+    max-width: max-content;
+    margin: 0 auto;
 }
